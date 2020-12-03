@@ -531,6 +531,7 @@
 
 .work-with-us {
     padding-top: 130px;
+    padding-bottom: 100px;
 
 }
 
@@ -569,4 +570,18 @@ p {
 
 button {
     animation-delay: 1s;
+}
+
+.footer-nav {
+    list-style-type: symbols(3);
+    list-style-position: inside;
+}
+
+.footer-list {
+    padding: 10px;
+}
+
+.footer-list:first-child {
+    list-style-type: none;
+    text-decoration: overline;
 }
